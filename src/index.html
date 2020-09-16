@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Validator</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="image-container">
+            <img src="../src/img/visa.png" class="card card-visa" alt="visa-icon">
+            <img src="../src/img/mastercard.png" class="card card-master" alt="mastercard-icon">
+            <img src="../src/img/american.png" class="card card-american" alt="american-express-icon">
+            <img src="../src/img/discover.png" class="card card-discover" alt="discover-icon">
+            <img src="../src/img/jcb.png" class="card card-jcb" alt="jcb-icon">
+            <img src="../src/img/diners-club.png" class="card card-diners" alt="diners-icon">
+            <img src="../src/img/mir.png" class="card card-mir" alt="mir-icon">
+        </div>
+        <form data-widget="card-num-form-widget">
+            <div class="form-control">
+                <label for="card-num" class="hidden">Введите номер карты</label>
+                <input id="card-num" data-id="card-num-input" type="text" name="card-number">
+            </div>
+            <button data-id="card-num-submit">Click to Validate</button>
+        </form>
+        <p class="message hidden">Card number is not correct</p>
+    </div>
+</body>
+</html>
